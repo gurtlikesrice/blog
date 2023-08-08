@@ -10,12 +10,36 @@ pages. */}}
 {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
 {{/* Check to see if the section is defined for ranging through it */}}
 {{ $section_count := len $section }}
-{{ if ge $section_count 1 }}
-{{/* Derive the section name */}}
-{{ $section_name := index (.Site.Params.mainSections) 0 }}
+
+
 
 <div class="pa3 pa4-ns w-100 w-70-ns center">
-  <p>Currently, I have written {{ $section_count }} posts!</p>
+  <p>
+    Welcome to my website! I used to post on <a href="https://www.instagram.com/charles_slice_of_life/">instagram</a>,
+    but got completely fed up with the super below average word processing tools, the 2.2K character count, and the
+    frustrating album posting user experience... maybe I'll write about that some other time.
+    <br />
+    <br />
+    What I wanted this website to be is a place for me to document various interesting aspects of my life. Every day
+    passes by so fast, and quite honestly it's hard to remember everything that happened even a week ago. I want this
+    website to be a place where I can look back and reminisce about good family vacations, memorable moments with my
+    partner, remind me about simple and fast dishes I can cook for dinner, and overall reflect on how my life is
+    progressing.
+    <br />
+    <br />
+    Currently I am a software engineer living in the greater Seattle area, where I spend my days with my partner, Grace
+    and our cat Gurt (her legal name is Yogurt). In my spare time I like to go day-hiking, climbing, occasionally
+    cooking (what a unique set of hobbies!!), and help Grace spruce up our house by buying and building whatever IKEA
+    furniture she sees fit.
+    <br />
+    <br />
+    Currently, I have written {{ $section_count }} post(s)!
+  </p>
+
+  {{ if ge $section_count 1 }}
+
+  {{/* Derive the section name */}}
+  {{ $section_name := index (.Site.Params.mainSections) 0 }}
   {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
   {{ with .Site.GetPage "section" $section_name }}
   <h1 class="flex-none">
@@ -54,6 +78,7 @@ pages. */}}
   </section>
   {{ end }}
 
+  {{ end }}
+
 </div>
-{{ end }}
 {{ end }}
