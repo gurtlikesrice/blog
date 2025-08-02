@@ -21,3 +21,5 @@ That was until in my most recent trip to sf, one of grace's brother's friends wh
 According to him, he's responsible for his own and two roommates' meals, and has been frequently hosting dinner parties for years at that point. The secret was to make daily meals as light as possible, with meal prep in large volumes, and save the cooking energy and desire for the dinner parties.
 
 I actually did a version of this when I was in Ottawa on my internship - I meal prepped 5 lunches and 5 dinners every weekend for 8 months, and got so sick meal prep that I swore from that point on to never meal prep again, which I guess is why I forgot that was even an option during my daily cooking in the present. So I think from now on, I will try to do my cooking with meal preparation in mind - not deliberately planning 7 days of meals, but also not making the portion sizes so small that I need to think of what food to cook every single day.
+
+Testing
