@@ -2,6 +2,8 @@
 title: "Post Yellowstone Impressions"
 date: 2023-08-26T21:44:36-07:00
 draft: false
+params:
+    title: 'post-yellowstone-impressions'
 ---
 
 I recently came back from a family roadtrip to Yellowstone. I remember being completely sick of sitting in a car for a Vancovuer -> San Diego road trip my family did in high school, but this one only involved one 11-hour driving, where I alternated with my dad, and did not feel as painful. I think one thing we still need to do better that I feel is part of the soul of road tripping is the spontaneous aspect of being able to stop wherever you'd like, but overall, this trip was a lot of fun.
@@ -16,7 +18,7 @@ Yellowstone is unlike any national park that I've been to so far, in large part 
 
 I'd like to think that I'm pretty close to nature - me and grace go hiking around the Snoqualmie-Baker area pretty often, occasionally venturing further for fruit picking or visintg Mount Ranier - but looking across the vast plains and hills of Yellowstone felt different than standing on a mountain-top admiring the views, or sitting on horseback trudging through the woods. Nature felt vast and never-ending. I've never felt small and insignificant as I did driving through the valleys in Yellowstone. The ground was also lush and filled with shubbery, and distant mountains covered in trees, which made my surroundings feel covered with wildlife - a constrast from the desolate lands driving through arizona - this was the closest to _wilderness_ that I have felt. I guess it's also different from how I've felt atop a mountain peak - there my farthest vantage point was only towards the surrounding mountains not so far away. In yellowstone mountains and hills extend far into the horizon.
 
-![lamar valley](/post-yellowstone-impressions-1.jpg)
+![lamar valley](/{{% param title %}}/post-yellowstone-impressions-1.jpg)
 
 Another thing that sets Yellowstone apart for me is really the incredible park infrastructure for every viewpoint we went to - from large tourist destinations like Artist Point and Old Faithful, to even roadside stops like Fountain Paint Pots, every area had well-paved parking lots with plenty of space, constantly maintained boardwalks winding through all the geysers and springs, and numerous signs and plaques documenting all the aspects that made the park special (though I do admit towards the end I was getting tired of the thermophilic bacteria signs). It truly holds up its name as America's oldest national park.
 
@@ -46,4 +48,4 @@ As the older brother in the family, and as my parents get older, I feel like I s
 
 Nothing more to elaborate here. There were multiple times when I wanted to say something, yet could not find the words to express myself adaquetely in Chinese. Or the way I did felt awkward despite being correct. I wonder if my family feels disappointment when I talk to Grace in English, like I'm losing my heritage. But on the other hand, they brought me over here to Canada and the United States, and I am in fact Chinese-Canadian!
 
-![fam](/post-yellowstone-impressions-2.jpg)
+![fam](/{{% param title %}}/post-yellowstone-impressions-2.jpg)
